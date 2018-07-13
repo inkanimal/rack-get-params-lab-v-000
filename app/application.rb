@@ -18,7 +18,10 @@ class Application
       req.path.match(/cart/)
       @@cart.empty?
        resp.write "Your cart is empty."
-       
+     end 
+   end
+    elsif 
+     
     else
       resp.write "Path Not Found"
     end
